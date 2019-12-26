@@ -19,7 +19,7 @@ If you would like to **support** project you can try my **PayPing** address to s
 
 Using of KiPEO is as easy as apple pie.
 
-1. Download and Install KiPEO plugin in Calibre ( [Download latest version](https://github.com/al1b/Calibre-KiPEO/releases/download/0.0.2/Calibre-KiPEO_0.0.2.zip) )
+1. Download and Install KiPEO plugin in Calibre ( [Download latest version](https://github.com/0x414c49/Calibre-KiPEO/releases/download/0.0.2/Calibre-KiPEO-1.0.2.zip) )
 2. Edit your desire e-book
 3. Try to find `KiPEO` in the plugins menu or the toolbar
 4. Save Changes!
