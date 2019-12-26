@@ -2,7 +2,7 @@
 from calibre.customize import EditBookToolPlugin
 from calibre.customize import InterfaceActionBase
 from calibre.ebooks.oeb.polish.container import get_container
-from reshaper import reshape_book
+import reshaper
 
 
 class KiPEOPlugin(EditBookToolPlugin, InterfaceActionBase):
@@ -21,7 +21,7 @@ class KiPEOPlugin(EditBookToolPlugin, InterfaceActionBase):
         fileName = argv[1]
         container = get_container(fileName, tweak_mode=True)
 
-        reshape_book(container, True)
+        reshaper.reshape_book(container, True)
 
         container.commit()
         
