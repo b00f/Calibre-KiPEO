@@ -4,8 +4,12 @@ Dedicated to the one who I love.
 
 KiPEO is a [Calibre](http://calibre-ebook.com/) plugin to optimize Persian and Arabic e-books for e-book readers such as Amazon kindle.
 
-## Important note
-if you encounter any bugs or you have any suggestions, please don't hesitate and submit it in [Issues](https://github.com/al1b/Calibre-KiPEO/issues) pages. If you don't have a Github account, you can send me an [email](dev-p@outlook.com) as well. Any code contribution are also welcomed!
+# Notice
+At the moment I don't have access to the reposities on my other account in GitHub, new versions will be posted here.
+
+# News
+
+1. Bug related to newer version of Calibre has been fixed, please download the newer version in releases.
 
 ## Support the project, buy me a cup of tea
 If you would like to **support** project you can try my **PayPing** address to support the project.
