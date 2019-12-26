@@ -1,14 +1,3 @@
-import re
-from PyQt5.Qt import QAction, QInputDialog, QMessageBox
-from css_parser.css import CSSRule
-
-# The base class that all tools must inherit from
-from calibre.gui2.tweak_book.plugin import Tool
-
-from calibre import force_unicode
-from calibre.gui2 import error_dialog
-from calibre.ebooks.oeb.polish.container import OEB_DOCS, OEB_STYLES, serialize
-
 from libpyarabicshaping import pyarabicshaping
 from io import open
 
