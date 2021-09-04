@@ -24,8 +24,8 @@
 # Google Author(s):
 #   Behdad Esfahbod
 
-import arabicshapingtab
-import joiningtypetab
+from calibre_plugins.kipeo.libpyarabicshaping import arabicshapingtab
+from calibre_plugins.kipeo.libpyarabicshaping import joiningtypetab
 
 def do_shaping(t, jtypes, shaper, rtl=True):
 
@@ -59,7 +59,7 @@ def do_shaping(t, jtypes, shaper, rtl=True):
 		if jnext in snext:
 			shape += vnext
 
-		t[i] = unichr (shaper (ord (t[i]), shape))
+		t[i] = chr (shaper (ord (t[i]), shape))
 
 		if jthis != 'T':
 			jprev = jthis
@@ -77,7 +77,7 @@ def do_ligaturing(t, jtypes, table, rtl=True):
 	while j+1 < length:
 		pair = (ord(t[j+v0]), ord(t[j+v1]))
 		if pair in table:
-			t[j] = unichr (table[pair])
+			t[j] = chr (table[pair])
 			# technically speaking we should fixup jtypes[j], but doesn't matter.
 			del t[j+1]
 			del jtypes[j+1]
